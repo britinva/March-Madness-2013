@@ -1,0 +1,190 @@
+	* {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	body {
+		margin: 0;
+		padding: 0; 
+		background: url('../images/backdrop.jpg') top left #000; 
+		background-size: cover; 
+		color: #000;
+		font-family: 'Open Sans', sans-serif;	
+		font-size: 12px;	
+	}
+	
+	h1 {
+		position: relative;
+		text-align: center;
+		width:500px;
+		margin: 0 auto;
+		z-index: 5;
+	}
+	
+	.container {
+		position: relative;
+		width: 980px;
+		margin: -160px auto 0;
+		overflow: hidden;
+	}
+
+	.score-column {
+		width: 249px;
+		padding-bottom: 50px;
+		float: left;
+	}
+	
+	.score-column h2 {
+		color: #fff;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: -1px;
+	}
+	
+	.west {
+		background: url('../images/bgs/column-left.png') bottom left no-repeat;
+	}
+	
+	.west h2 {
+		background: #d7af2c;
+		padding: .5em 10px .5em 0;
+	}
+
+	.west li.game {
+		margin-right: 10px;
+	}
+
+	.east {
+		background: url('../images/bgs/column-right.png') bottom right no-repeat;
+	}
+	
+	.east h2 {
+		background: #0d529d;
+		padding: .5em 0 .5em 10px;
+	}
+
+	.east li.game {
+		margin-left: 10px;
+	}
+	
+	.score-column ul {
+		padding: 0px 12px;
+		list-style: none;
+	}
+	
+	li.game {
+		position: relative;
+		height: 100px;
+		width: 210px;
+		margin-bottom: 5px;
+		font-weight: 800;
+		font-size: 1.5em;
+		letter-spacing: -2px;
+	}
+	
+	li.game .team1,
+	li.game .team2 {
+		width: 50%;
+		float: left;
+		text-align: center;
+		line-height: 1.2em;
+	}
+
+	li.game .team1 {
+		border-right: solid 1px black;
+	}
+
+	li.game .front,
+	li.game .back {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100px;
+		width: 210px;
+		padding: 10px;
+		border-radius: 5px;
+		background: #fff;
+		box-shadow: inset 0px 3px 10px rgba(0,0,0,.5);
+	}
+
+
+	.main-scoreboard {
+		position: relative;
+		width: 500px;
+		background: #000;
+		border-radius: 8px;
+		padding: 14px;
+		margin: 0 -9px;
+		overflow: hidden;
+		box-shadow: 0px 5px 10px rgba(0,0,0,.5);
+		float: left;
+	}
+	
+	.logo-placeholder, .stat-placeholder {
+		position: relative;
+		border: solid 2px #000;
+		text-align: center;
+		width: 50%;
+		float: left;
+	}
+
+	.logo-placeholder {
+		height: 360px;
+	}
+	
+	.stat-placeholder {
+		height: 180px;
+	}
+	
+	.logo-placeholder .front,
+	.logo-placeholder .back {
+		font-size: 35px;
+		font-weight: 700;
+		letter-spacing: -2px;
+		padding-top: 90px;
+		height: 356px;
+		background: #fff;
+		width: 100%;
+	}
+	
+	.stat-placeholder .front,
+	.stat-placeholder .back {
+		color: #0e2337;
+		padding: 10px 20px;
+		height: 176px;
+		background: #fff;
+		width: 100%;
+	}
+
+	.stat-placeholder h3 {
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+
+	.stat-placeholder ul {
+		padding: 0;
+		list-style: none;
+		text-align: left;
+	}
+
+	.stat-placeholder li {
+		border-bottom: solid 1px #e3e3e3;
+		padding: .5em 0;
+	}
+	.stat-placeholder li:last-child, .stat-placeholder li:last-child {
+		border-bottom: none;
+	}
+	
+	.team1-logo .front, .team1-logo .back {border-top-left-radius: 8px;}
+	.team2-logo .front, .team2-logo .back {border-top-right-radius: 8px;}
+	.team1-tweets {border-bottom-left-radius: 8px;}	
+	.team2-tweets {border-bottom-right-radius: 8px;}
+	
+	.versus {
+		position: absolute;
+		bottom: 150px;
+		left: 250px;
+		margin-left: -52px;
+		z-index: 5;
+	}

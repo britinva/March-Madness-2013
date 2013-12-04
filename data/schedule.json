@@ -1,0 +1,68 @@
+{
+	"games": [
+		{
+		"team1": "VALP",
+		"team2": "MSU"
+		},
+		{
+		"team1": "BUCK",
+		"team2": "BUT"
+		},
+		{
+		"team1": "WICH",
+		"team2": "PITT"
+		},
+		{
+		"team1": "NMSU",
+		"team2": "SLU"
+		},
+		{
+		"team1": "MEM",
+		"team2": "STM"
+		},
+		{
+		"team1": "DAV",
+		"team2": "MARQ"
+		},
+		{
+		"team1": "SOU",
+		"team2": "GONZ"
+		},
+		{
+		"team1": "ORE",
+		"team2": "OKST"
+		},
+		{
+		"team1": "NCAT",
+		"team2": "LOU"
+		},
+		{
+		"team1": "SDST",
+		"team2": "MICH"
+		},
+		{
+		"team1": "BEL",
+		"team2": "ARIZ"
+		},
+		{
+		"team1": "CAL",
+		"team2": "UNLV"
+		},
+		{
+		"team1": "MIZZ",
+		"team2": "CSU"
+		},
+		{
+		"team1": "AKR",
+		"team2": "VCU"
+		},
+		{
+		"team1": "HARV",
+		"team2": "UNM"
+		},
+		{
+		"team1": "MONT",
+		"team2": "SYR"
+		}
+	]
+}
